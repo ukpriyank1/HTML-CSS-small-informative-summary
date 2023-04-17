@@ -1,0 +1,32 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+details {
+    margin: 15px;
+    font-size: 20px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+details > * {
+    padding: .75rem;
+}
+
+details > div {
+    background: #ddd;
+    border-radius: 0 0 10px 10px;
+}
+
+summary{
+    border-radius: 5px;
+    font-size: 25px;
+    font-family: 'Times New Roman', Times, serif;
+    font-weight: bold;
+    color: #fff;
+    background: #0B486B;
+    cursor: pointer;
+}
+
+details[open] summary {
+    border-radius: 5px 5px 0 0;
+}
